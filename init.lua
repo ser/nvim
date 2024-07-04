@@ -6,6 +6,7 @@ require("config.lazy")
 vim.cmd [[
 
 :au VimEnter * TWEnable
+:set virtualedit=onemore
 
 ]]
 

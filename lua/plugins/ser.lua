@@ -15,7 +15,9 @@ return {
         'nvim-treesitter/nvim-treesitter',
     },
     config = function()
-        require('typewriter').setup()
+        require('typewriter').setup {
+          enable_notifications = false,
+      }
     end,
     opts = {}
   }
