@@ -19,11 +19,22 @@ return {
     },
   },
 
+  { "miikanissi/modus-themes.nvim",
+    priority = 1000, 
+    opts = {
+      transparent = true,
+      variant = "deuteranopia",
+      styles = {
+        functions = { italic = true },
+      };
+    },
+  },
+
   -- Configure LazyVim to load theme
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "eldritch",
+      colorscheme = "modus",
     },
   },
 
