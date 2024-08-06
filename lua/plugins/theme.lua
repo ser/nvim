@@ -2,6 +2,7 @@ return {
 
   {
     "folke/tokyonight.nvim",
+    cond = false,
     opts = {
       transparent = true,
       styles = {
@@ -14,19 +15,22 @@ return {
     "eldritch-theme/eldritch.nvim",
     lazy = false,
     priority = 1000,
+    cond = false,
     opts = {
       transparent = true,
     },
   },
 
-  { "miikanissi/modus-themes.nvim",
-    priority = 1000, 
+  {
+    "miikanissi/modus-themes.nvim",
+    priority = 1000,
+    cond = true,
     opts = {
       transparent = true,
       variant = "deuteranopia",
       styles = {
         functions = { italic = true },
-      };
+      },
     },
   },
 

@@ -16,6 +16,7 @@ return {
       --address_url = "http://192.168.41.71:8008",
       address_url = "https://refact.ai.sergevictor.eu",
       api_key = "AAAA-BBBB-CCCC-DDDD",
+      vecdb = true,
     },
   },
 }
