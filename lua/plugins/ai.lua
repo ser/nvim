@@ -8,6 +8,7 @@ end
 
 return {
   {
+    -- https://github.com/smallcloudai/refact-neovim
     "smallcloudai/refact-neovim",
     lazy = false,
     cond = heyai,
