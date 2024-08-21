@@ -23,6 +23,7 @@ return {
 
   {
     "miikanissi/modus-themes.nvim",
+    lazy = false,
     priority = 1000,
     cond = true,
     opts = {
@@ -32,6 +33,14 @@ return {
         functions = { italic = true },
       },
     },
+  },
+
+  {
+    "0xstepit/flow.nvim",
+    lazy = false,
+    priority = 1000,
+    cond = false,
+    opts = {},
   },
 
   -- Configure LazyVim to load theme
